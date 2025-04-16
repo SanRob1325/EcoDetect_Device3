@@ -4,9 +4,9 @@ from sense_hat import SenseHat
 from datetime import datetime
 
 
-MAIN_PI = "http://192.168.122.123:5000/api/sensor-data-upload"
-ROOM_ID = "bedroom_1"
-DEVICE_ID = "bedroom_pi_1"
+MAIN_PI = "http://192.168.243.123:5000/api/sensor-data-upload"
+ROOM_ID = "bedroom_2"
+DEVICE_ID = "bedroom_pi_2"
 
 
 sensor = SenseHat()
